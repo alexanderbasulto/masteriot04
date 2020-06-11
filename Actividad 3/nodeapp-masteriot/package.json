@@ -1,0 +1,25 @@
+{
+  "name": "nodeapp-masteriot",
+  "version": "1.0.0",
+  "description": "IoT Node App. This server built in Node.js and Express.js is able to receive data from Azure IoT Hub, store that data in a mongoDB database, broadcast that data through a websocket and send an action back to the device. There is also a web receiving data in real time and asynchronous.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-common": "1.1.7",
+    "azure-iothub": "^1.2.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "socket.io": "^2.2.0"
+  },
+  "noAnalyze": true,
+  "engines": {
+    "node": "~10.14.0"
+  }
+}

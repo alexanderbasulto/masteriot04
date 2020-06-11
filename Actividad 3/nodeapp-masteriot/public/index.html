@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Temperature &amp; Humidity live data</title>
+    <script src="javascripts/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/Chart.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/socket.io.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/index.js" type="text/javascript" charset="utf-8"></script>
+    <link href="stylesheets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <canvas id="myChart" width="400" height="150"></canvas>
+    <table class="greyGridTable">
+        <thead>
+          <tr>
+            <th>Device ID</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Device ID</td>
+            <td>Temperature</td>
+            <td>Humidity</td>
+            <td>Time</td>
+          </tr>
+        </tfoot>
+        <tbody>
+        </tbody>
+      </table>
+</body>
+
+</html>
