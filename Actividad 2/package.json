@@ -1,0 +1,22 @@
+{
+  "name": "iothub-connection",
+  "version": "1.0.0",
+  "description": "Azure IoT Hub connection demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://javierdelacueva@bitbucket.org/javierdelacueva/iothub-connection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/javierdelacueva/iothub-connection/src/master/README.md",
+  "dependencies": {
+    "@azure/event-hubs": "^5.1.0",
+    "azure-iot-device": "^1.14.0",
+    "azure-iot-device-mqtt": "^1.13.0",
+    "azure-iothub": "^1.12.1"
+  }
+}

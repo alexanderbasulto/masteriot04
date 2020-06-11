@@ -1,0 +1,5 @@
+Se abre el cmd como admin, y se entra a la capeta C:\Actividad 2
+
+1. Se ejecuta primero npm install para instalar los paquetes y librerias.
+2. Se copia el Connection string—primary key, se ejecuta node register-device.js
+3. Se copia el Primary Connection String y se ejecuta node simulated-device.js
