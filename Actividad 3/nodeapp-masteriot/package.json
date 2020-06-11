@@ -15,7 +15,7 @@
     "azure-iothub": "^1.2.1",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "mongoose": "^4.9.8",
+    "mongoose": "^5.9.18",
     "socket.io": "^2.2.0"
   },
   "noAnalyze": true,
